@@ -357,14 +357,33 @@ transition: all 1.2s;
         justify-content:center;
     }
     .FooterTittle{
-        border: solid 2px white;
-        background-color: rgba(0, 0, 0, 0.609);
-        box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
-        width: 45vh;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 300;
         text-align: center;
 
+    }
+    .DivFooter{
+        border: solid 2px white;
+        display: inline;
+        background-color: rgba(0, 0, 0, 0.609);
+        box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
+        width: 60vw;
+    }
+ 
+    .name{ 
+    
+        font-family: 'Poppins', sans-serif;
+        color: transparent;
+        font-weight: 300;
+    font-size: 1rem;
+    transition: all 2s;
+    }
+    
+    .name:hover{
+        color: red;
+        font-size: 1.8rem;
+        /* transform: rotate(360deg); */
+     
     }
 }
