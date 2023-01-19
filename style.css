@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +20,10 @@ h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-
-h3 {
+h3{
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-align: left;
+font-weight: 300;
+text-align: left;
 }
 
 header {
@@ -91,12 +89,10 @@ main {
     height: fit-content;
 
 }
-
-.ImgExample {
-    width: 18vw;
+.ImgExample{
+    width:18vw;
     height: fit-content;
 }
-
 .Legend {
     display: flex;
     justify-content: flex-end;
@@ -118,9 +114,7 @@ main {
     box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
 }
 
-.ULProduct,
-.OlInstruction,
-.UlInstruction {
+.ULProduct,.OlInstruction,.UlInstruction  {
     width: 85vw;
     height: fit-content;
     margin: 0rem 2rem 0rem 2rem;
@@ -182,20 +176,18 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
-
-.FooterTittle {
+.FooterTittle{
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 100;
 }
-
 @media (min-width:201px) and (max-width:501px) {
 
     h1 {
         width: 100vw;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align: justify;
-        padding: 2rem 2rem 1rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
         text-transform: uppercase;
     }
 
@@ -205,13 +197,12 @@ footer {
         padding: 0rem 2rem 1rem 1.5rem;
         text-align: center;
     }
-
-    h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        text-align: left;
+    h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
     }
-
+    
     header {
         background-color: rgb(127, 146, 255);
         background-attachment: fixed;
@@ -245,7 +236,7 @@ footer {
         width: 100vw;
         height: 80vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: column ;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 0.5rem;
@@ -263,13 +254,11 @@ footer {
         width: 60vw;
         height: 10vh;
     }
+    .ImgExample{
 
-    .ImgExample {
-
-        width: 30vw;
+      width:30vw; 
         /* height: fit-content; */
     }
-
     .Legend {
         align-items: end;
         font-size: 0.5rem;
@@ -287,9 +276,7 @@ footer {
         box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
     }
 
-    .ULProduct,
-    .OlInstruction,
-    .UlInstruction {
+    .ULProduct,.OlInstruction,.UlInstruction {
         height: fit-content;
         height: fit-content;
         margin: 0rem 0rem 0rem 0rem;
@@ -333,18 +320,17 @@ footer {
     }
 
     footer {
-        background-image: url(img/footer.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-image: url(img/footer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
         width: 100vw;
-        height: 20vh;
+        height: 100vh;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content:center;
     }
-
-    .FooterTittle {
+    .FooterTittle{
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 300;
