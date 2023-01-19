@@ -6,6 +6,7 @@
 }
 
 h1 {
+    background-color: rgba(0, 0, 0, 0.378);
     font-size: 2.5rem;
     text-align: center;
     padding: 2rem 2rem 2rem 3rem;
@@ -171,16 +172,41 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100vw;
-    height: 20vh;
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:center;
 }
+.DivFooter{
+    border: solid 2px white;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.609);
+    box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
+    width: 60vw;
+}
+
 .FooterTittle{
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
+text-align: center;    
 }
+.name{ 
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+font-size: 2rem;
+transition: all 1.2s;
+}
+
+.name:hover{
+    color: red;
+    font-size: 5rem;
+    transform: rotate(360deg);
+ 
+}
+
 @media (min-width:201px) and (max-width:501px) {
 
     h1 {
@@ -331,9 +357,14 @@ footer {
         justify-content:center;
     }
     .FooterTittle{
+        border: solid 2px white;
+        background-color: rgba(0, 0, 0, 0.609);
+        box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
+        width: 45vh;
         font-family: 'Poppins', sans-serif;
         color: white;
         font-weight: 300;
         text-align: center;
+
     }
 }
