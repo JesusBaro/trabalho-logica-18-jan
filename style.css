@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,41 +7,59 @@
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 2rem 2rem 2rem 3rem;
-
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: white;
 }
 
 h2 {
     font-size: 2.2rem;
     padding: 0rem 0rem 1rem 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     text-align: left;
 }
 
 header {
     background-color: aquamarine;
+    background-image: url(img/footer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
 
-.DivHeaderLogo {
-    border: solid red;
+/* .DivHeaderLogo {
+    background-image:url(img/icon3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 10vw;
     height: 10vh;
-    margin-left: 5rem;
-}
+    margin-left: 2rem;
+    margin-right: 2rem;
+} */
 
 main {
-    background-color: rgb(48, 132, 40);
+    background-image: url(img/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100vw;
-    height: 350vh;
+    height: 390vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +69,7 @@ main {
 .ContainerExamples {
     background-color: white;
     width: 100vw;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -58,22 +78,30 @@ main {
 }
 
 .ExampleOnlyDesktop {
-    border: solid red;
+    display: flex;
+    align-items: center;
     width: 18vw;
     height: 60vh;
 }
 
 .ExampleDesktopAndMobile {
-    border: solid red;
+    display: flex;
+    align-items: center;
     width: 18vw;
-    height: 60vh;
+    height: fit-content;
 
+}
+
+.ImgExample {
+    width: 18vw;
+    height: fit-content;
 }
 
 .Legend {
     display: flex;
     justify-content: flex-end;
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
 
 }
 
@@ -81,7 +109,7 @@ main {
 
     background-color: white;
     width: 90vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     align-items: left;
     justify-content: center;
@@ -90,8 +118,9 @@ main {
     box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
 }
 
-.ULProduct,.OlInstruction,.UlInstruction  {
-    border: solid rgb(255, 0, 212);
+.ULProduct,
+.OlInstruction,
+.UlInstruction {
     width: 85vw;
     height: fit-content;
     margin: 0rem 2rem 0rem 2rem;
@@ -100,19 +129,22 @@ main {
 
 li {
     align-items: left;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 0rem 1rem 0.5rem 0.2rem;
     margin-left: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .notes {
     padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 .ContainerInstructionModelagem {
     background-color: rgb(255, 255, 255);
     width: 90vw;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: left;
     justify-content: space-evenly;
@@ -122,7 +154,6 @@ li {
 }
 
 .ListInstruction {
-    border: solid red;
     width: 85vw;
     margin-left: 2rem;
 
@@ -131,7 +162,7 @@ li {
 .ContainerInstructionCostura {
     background-color: rgb(249, 249, 249);
     width: 90vw;
-    height: 95vh;
+    height: 125vh;
     display: flex;
     align-items: left;
     justify-content: space-evenly;
@@ -141,30 +172,44 @@ li {
 }
 
 footer {
-    background-color: rgb(19, 198, 132);
+    background-image: url(img/footer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
+.FooterTittle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
 @media (min-width:201px) and (max-width:501px) {
 
     h1 {
-        font-size: 1.2rem;
+        width: 100vw;
+        font-size: 1.3rem;
         text-align: justify;
-        padding: 2rem 2rem 2rem 2rem;
-
-
+        padding: 2rem 2rem 1rem 2rem;
+        text-transform: uppercase;
     }
 
     h2 {
+        width: 30vh;
         font-size: 1.8rem;
         padding: 0rem 2rem 1rem 1.5rem;
-        text-align: justify;
+        text-align: center;
+    }
 
-
+    h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        text-align: left;
     }
 
     header {
@@ -174,12 +219,11 @@ footer {
         height: 15vh;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
 
     }
 
     .DivHeaderLogo {
-        border: solid rgb(225, 255, 0);
         width: 25vw;
         height: 5vh;
         margin-left: 2rem;
@@ -189,7 +233,7 @@ footer {
         background-color: rgb(40, 132, 118);
         background-attachment: fixed;
         width: 100vw;
-        height: 600vh;
+        height: 880vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -201,35 +245,40 @@ footer {
         width: 100vw;
         height: 80vh;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
         margin-bottom: 0.5rem;
         box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
     }
 
     .ExampleDesktopAndMobile {
-        border: solid red;
+        display: flex;
+        justify-content: center;
         width: 65vw;
-        height: 20vh;
     }
 
     .ExampleOnlyDesktop {
         display: none;
-        border: solid red;
         width: 60vw;
         height: 10vh;
     }
 
+    .ImgExample {
+
+        width: 30vw;
+        /* height: fit-content; */
+    }
+
     .Legend {
-        align-items: flex-end;
+        align-items: end;
+        font-size: 0.5rem;
     }
 
     .ContainerProduct {
-
         background-color: white;
         width: 90vw;
-        height: 90vh;
+        height: 120vh;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -238,8 +287,9 @@ footer {
         box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
     }
 
-    .ULProduct,.OlInstruction,.UlInstruction {
-        border: solid rgb(9, 255, 0);
+    .ULProduct,
+    .OlInstruction,
+    .UlInstruction {
         height: fit-content;
         height: fit-content;
         margin: 0rem 0rem 0rem 0rem;
@@ -260,7 +310,7 @@ footer {
     .ContainerInstructionModelagem {
         background-color: rgb(255, 255, 255);
         width: 90vw;
-        height: 130vh;
+        height: 230vh;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -273,7 +323,7 @@ footer {
     .ContainerInstructionCostura {
         background-color: rgb(249, 249, 249);
         width: 90vw;
-        height: 230vh;
+        height: 380vh;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -283,12 +333,21 @@ footer {
     }
 
     footer {
-        background-color: rgb(19, 198, 132);
+        background-image: url(img/footer.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100vw;
-        height: 100vh;
+        height: 20vh;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
+    .FooterTittle {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 300;
+        text-align: center;
+    }
 }
