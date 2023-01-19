@@ -1,0 +1,189 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{    font-size: 2.2rem;
+    text-align: center;
+    padding:2rem 2rem 2rem 3rem;
+
+}
+h2{
+    font-size: 2.2rem;
+    padding:0rem 0rem 1rem 3rem;
+}
+header{
+    background-color: aquamarine;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+main{
+    background-color: rgb(48, 132, 40);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ContainerExamples{
+    background-color:white;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+}
+.ContainerProduct{
+
+    background-color:white;
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+}
+
+
+ul{
+    border: solid red;
+    width: 85vw;
+    height: 45vh;
+    margin:0rem 2rem 0rem 2rem;
+
+}
+li{ 
+    /* border: solid red; */
+    align-items: left;
+    font-size: 1.4rem;
+    padding:0rem 1rem 0.5rem 0.2rem;
+
+}
+.notes{
+    padding-left: 1rem;
+}
+.ContainerInstruction{
+    background-color: rgb(233, 142, 37);
+    width: 90vw;
+    height: 65vh;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+}
+.ListInstruction{
+    border: solid red;
+    width: 80vw;
+    margin-left: 2rem;
+
+}
+
+footer{
+    background-color: rgb(19, 198, 132);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (min-width:201px) and (max-width:501px){
+           
+    h1{    font-size: 1.3rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 2rem;
+        padding:0rem 2rem 2rem 3rem;
+        flex-wrap: nowrap;
+    }
+
+    header{
+        background-color: rgb(157, 127, 255);
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    main{
+        background-color: rgb(255, 127, 191);
+        width: 100vw;
+        height: 500vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ContainerExamples{
+        background-color:white;
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        align-items: left;
+        justify-content:center;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+    }
+    .ContainerProduct{
+        background-color: rgb(175, 184, 54);
+        width: 80vw;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+    }
+
+    ul{
+        border: solid red;
+        width: 70vw;
+        height: 75vh;
+        margin:0rem 2rem 2rem 2rem;
+    
+    }
+    li{ 
+        align-items: left;
+        font-size: 1.5rem;
+    }
+    .notes{
+        padding-left: 1rem;
+    }
+    .ContainerInstruction{
+        background-color: rgb(233, 142, 37);
+        width: 80vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+    }
+    
+    footer{
+        background-color: rgb(110, 33, 64);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
