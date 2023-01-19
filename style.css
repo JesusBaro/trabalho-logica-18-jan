@@ -22,12 +22,17 @@ header{
     justify-content: space-evenly;
 
 }
-
+.DivHeaderLogo{
+    border: solid red;
+    width: 10vw;
+    height: 10vh;  
+    margin-left: 5rem;
+}
 main{
     background-color: rgb(48, 132, 40);
     background-attachment: fixed;
     width: 100vw;
-    height: 500vh;
+    height: 350vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,11 +43,15 @@ main{
     width: 100vw;
     height: 70vh;
     display: flex;
-    align-items: left;
-    justify-content:center;
-    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
     margin-bottom: 0.5rem;
     box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+}
+.example{
+    border: solid red;
+    width: 18vw;
+    height: 50vh;  
 }
 .ContainerProduct{
 
@@ -57,11 +66,10 @@ main{
     box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
 }
 
-
-ul{
+.ListItensProduct{
     border: solid red;
     width: 85vw;
-    height: 45vh;
+    height: fit-content;
     margin:0rem 2rem 0rem 2rem;
 
 }
@@ -75,8 +83,8 @@ li{
 .notes{
     padding-left: 1rem;
 }
-.ContainerInstruction{
-    background-color: rgb(233, 142, 37);
+.ContainerInstructionModelagem{
+    background-color: rgb(255, 255, 255);
     width: 90vw;
     height: 65vh;
     display: flex;
@@ -88,11 +96,21 @@ li{
 }
 .ListInstruction{
     border: solid red;
-    width: 80vw;
+    width: 85vw;
     margin-left: 2rem;
 
 }
-
+.ContainerInstructionCostura{
+    background-color: rgb(249, 249, 249);
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    box-shadow:1.4rem 1.4rem 3rem  0.1vw rgba(0, 0, 0, 0.8) ;
+}
 footer{
     background-color: rgb(19, 198, 132);
     width: 100vw;
