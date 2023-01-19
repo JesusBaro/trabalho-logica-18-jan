@@ -194,7 +194,7 @@ text-align: center;
 .name{ 
 
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: transparent;
     font-weight: 300;
 font-size: 2rem;
 transition: all 1.2s;
@@ -203,7 +203,7 @@ transition: all 1.2s;
 .name:hover{
     color: red;
     font-size: 5rem;
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
  
 }
 
