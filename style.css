@@ -377,7 +377,7 @@ transition: all 1.2s;
         color: transparent;
         font-weight: 300;
     font-size: 1rem;
-    transition: all 2s;
+    transition: all 1.2s;
     }
     
     .name:hover{
