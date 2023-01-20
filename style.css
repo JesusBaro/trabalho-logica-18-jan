@@ -67,15 +67,17 @@ main {
 
 .ExampleOnlyDesktop {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 18vw;
+    width: 20vw;
     height: 60vh;
 }
 
 .ExampleDesktopAndMobile {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 18vw;
+    width: 20vw;
     height: fit-content;
 
 }
@@ -184,7 +186,6 @@ text-align: center;
 
     font-family: 'Poppins', sans-serif;
     color: transparent;
-    font-weight: 300;
 font-size: 2rem;
 transition: all 1.2s;
 }
@@ -192,6 +193,7 @@ transition: all 1.2s;
 .name:hover{
     color: red;
     font-size: 5rem; 
+      font-weight: 700;
 }
 
 @media (min-width:201px) and (max-width:501px) {
@@ -353,10 +355,14 @@ transition: all 1.2s;
     }
     .DivFooter{
         border: solid 2px white;
-        display: inline;
+        display: flex;
+         align-items: center;
+        justify-content:center;
+        flex-direction: column;
         background-color: rgba(0, 0, 0, 0.609);
         box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
-        width: 60vw;
+        width: 75vw;
+       
   }
     .name{ 
     
@@ -369,7 +375,7 @@ transition: all 1.2s;
     
     .name:hover{
         color: rgb(253, 1, 1);
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     font-weight: 900;
     }
 }
