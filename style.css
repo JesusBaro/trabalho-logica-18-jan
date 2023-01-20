@@ -22,7 +22,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 h3{
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 300;
 text-align: left;
 }
@@ -40,17 +40,6 @@ header {
     justify-content: space-evenly;
 
 }
-
-/* .DivHeaderLogo {
-    background-image:url(img/icon3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 10vw;
-    height: 10vh;
-    margin-left: 2rem;
-    margin-right: 2rem;
-} */
 
 main {
     background-image: url(img/background.webp);
@@ -92,7 +81,7 @@ main {
 }
 .ImgExample{
     width:18vw;
-    height: fit-content;
+    height: 40vh;
 }
 .Legend {
     display: flex;
@@ -202,17 +191,15 @@ transition: all 1.2s;
 
 .name:hover{
     color: red;
-    font-size: 5rem;
-    /* transform: rotate(360deg); */
- 
+    font-size: 5rem; 
 }
 
 @media (min-width:201px) and (max-width:501px) {
 
     h1 {
         width: 100vw;
-        font-size: 1rem;
-        text-align: justify;
+        font-size: 1.3rem;
+        text-align: center ;
         padding: 2rem 2rem 2rem 2rem;
         text-transform: uppercase;
     }
@@ -250,7 +237,7 @@ transition: all 1.2s;
         background-color: rgb(40, 132, 118);
         background-attachment: fixed;
         width: 100vw;
-        height: 880vh;
+        height: 790vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -258,32 +245,34 @@ transition: all 1.2s;
     }
 
     .ContainerExamples {
+
         background-color: white;
         width: 100vw;
         height: 80vh;
         display: flex;
         flex-direction: column ;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         margin-bottom: 0.5rem;
+        margin-top: 1rem;
         box-shadow: 1.4rem 1.4rem 3rem 0.1vw rgba(0, 0, 0, 0.8);
     }
 
     .ExampleDesktopAndMobile {
-        display: flex;
-        justify-content: center;
-        width: 65vw;
+        width:20vw;
+        height:fit-content;
     }
 
     .ExampleOnlyDesktop {
-        display: none;
-        width: 60vw;
-        height: 10vh;
+      
+        width:20vw;
+        height:fit-content;
     }
     .ImgExample{
-
-      width:30vw; 
-        /* height: fit-content; */
+        width:25vw;
+      height:fit-content;
+      
     }
     .Legend {
         align-items: end;
@@ -312,7 +301,6 @@ transition: all 1.2s;
     li {
         align-items: left;
         font-size: 1.4rem;
-        /* padding: 0rem 0.5rem 0.5rem 0rem; */
 
     }
 
@@ -323,7 +311,7 @@ transition: all 1.2s;
     .ContainerInstructionModelagem {
         background-color: rgb(255, 255, 255);
         width: 90vw;
-        height: 230vh;
+        height: 200vh;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -336,7 +324,7 @@ transition: all 1.2s;
     .ContainerInstructionCostura {
         background-color: rgb(249, 249, 249);
         width: 90vw;
-        height: 380vh;
+        height: 320vh;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -369,8 +357,7 @@ transition: all 1.2s;
         background-color: rgba(0, 0, 0, 0.609);
         box-shadow: 1.4rem 1.4rem 10rem 0.3vw rgba(255, 255, 255, 0.87);
         width: 60vw;
-    }
- 
+  }
     .name{ 
     
         font-family: 'Poppins', sans-serif;
@@ -381,9 +368,8 @@ transition: all 1.2s;
     }
     
     .name:hover{
-        color: red;
+        color: rgb(253, 1, 1);
         font-size: 1.8rem;
-        /* transform: rotate(360deg); */
-     
+    font-weight: 900;
     }
 }
